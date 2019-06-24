@@ -1,0 +1,11 @@
+img {
+    display:inline-block;
+}
+
+#wins {
+    color:red;
+    
+}
+#losses {
+    color:blue;
+}
