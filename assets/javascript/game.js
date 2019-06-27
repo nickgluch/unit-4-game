@@ -3,9 +3,10 @@ $(document).ready(function () {
 
     //    $(window).onload(function game() {
 
+
     var randomNumber = Math.floor(Math.random() * 101)
     $('#RandomNumber').html(randomNumber);
-    //var currentScore = 0;
+
     var win = 0;
     var lose = 0;
 
@@ -21,8 +22,14 @@ $(document).ready(function () {
             alert('You won!')
             win++;
             $("#wins").text('Wins: ' + win);
-            game();
+
             console.log(win);
+
+            randomNumber = Math.floor(Math.random() * 101)
+            $('#RandomNumber').html(randomNumber);
+            currentScore = 0;
+            currentScoreElement.html(0);
+
 
         }
 
@@ -30,7 +37,15 @@ $(document).ready(function () {
             alert('Lost!');
             lose++;
             $("#losses").text('Losses: ' + lose);
-            game();
+
+
+            randomNumber = Math.floor(Math.random() * 101)
+            $('#RandomNumber').html(randomNumber);
+            currentScore = 0;
+            currentScoreElement.html(0);
+
+
+
         }
     }
 
