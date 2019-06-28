@@ -13,6 +13,7 @@ $(document).ready(function () {
 
 
     var currentScore = 0;
+
     var currentScoreElement = $('#totalScoreNumber');
     currentScoreElement.html(0);
 
