@@ -4,3 +4,5 @@ and the goal of a the projects game is to add the crystal values to the current 
 the random number
 if the score matches the random number the win counter will go up 1
 if it goes past the random number the loss counter will go up 1
+
+https://nickgluch.github.io/unit-4-game/
